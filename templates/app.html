@@ -12,8 +12,8 @@
         
     {% else %}
         <!-- Production assets -->
-        <link rel="stylesheet" href="{{ url_for('static', filename='dist/assets/app.css') }}">
-        <script type="module" src="{{ url_for('static', filename='dist/assets/app.ts') }}"></script>
+        <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+        <script type="module" src="{{ url_for('static', filename='app.js') }}"></script>
     {% endif %}
 </head>
 <body>

@@ -13,11 +13,17 @@ export default defineConfig({
     },
   },
   build: {
-    outDir: 'public/dist',
-    manifest: true,
+    outDir: 'public',
+    manifest: false,
     rollupOptions: {
       input: 'resources/js/app.ts',
+      output: {
+        assetFileNames: '[name][extname]',
+        chunkFileNames: '[name].js',
+        entryFileNames: '[name].js',
+      },
     },
+
   },
   server: {
     host: '127.0.0.1',
