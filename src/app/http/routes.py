@@ -7,8 +7,12 @@ app_blueprint = Blueprint('app', __name__, url_prefix='/')
 
 @app_blueprint.get('/')
 def index():
-    return redirect('/dashboard')
+    return redirect('/about')
 
 @app_blueprint.get('/dashboard')
 def dashboard():
     return render_inertia('Home')
+
+@app_blueprint.get('/about')
+def about():
+    return render_inertia('About')

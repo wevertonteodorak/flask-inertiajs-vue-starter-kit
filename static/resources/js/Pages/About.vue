@@ -1,6 +1,6 @@
 <template>
   <AppLayout>
-    <div class="bg-gradient-to-br from-blue-50 to-indigo-100 py-16">
+    <div class="py-16">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
           <h1 class="text-4xl font-bold text-gray-900 mb-4">
@@ -46,12 +46,6 @@
         
         <!-- Recent Users -->
         <div class="card p-6">
-          <div class="flex justify-between items-center mb-6">
-            <h2 class="text-2xl font-semibold text-gray-900">Usuários Recentes</h2>
-            <Link href="/users" class="btn btn-primary">
-              Ver Todos
-            </Link>
-          </div>
           
           <div class="grid gap-4 md:grid-cols-2">
             <div 
