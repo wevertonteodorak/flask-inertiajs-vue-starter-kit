@@ -49,12 +49,12 @@ const mainNavItems: NavItem[] = [
 const rightNavItems: NavItem[] = [
     {
         title: 'Repository',
-        href: 'https://github.com/wevertonteodorak/flask-vue-starter-kit',
+        href: 'https://github.com/wevertonteodorak/flask-inertiajs-vue-starter-kit',
         icon: Folder,
     },
     {
         title: 'Documentation',
-        href: 'https://github.com/wevertonteodorak/flask-vue-starter-kit',
+        href: 'https://github.com/wevertonteodorak/flask-inertiajs-vue-starter-kit',
         icon: BookOpen,
     },
 ];
