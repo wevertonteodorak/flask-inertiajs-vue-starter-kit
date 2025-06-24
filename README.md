@@ -1,14 +1,14 @@
-#Sobre
+# Sobre
 ## Este proeto está em WIP (Work in progress)
 Starter kit que integra Flask (backend python) com um frontend usando Vue 3 + Inertia.js + TypeScript, pronto para hot-reload.
 
-#Features
+# Features
 - Autentião Local - DONE
 - Criar nova conta local - DONE
 - Autenticaão SSO OAUTH - WIP
 - Reset de senha - TBD
 
-#Estrutura
+# Estrutura
 /
 ├── Makefile
 ├── src                 ← arquivos fonte do backend
@@ -21,13 +21,13 @@ Starter kit que integra Flask (backend python) com um frontend usando Vue 3 + 
 │   └── base.html       ← template raiz com Inertia
 └── README.md
 
-#Pré requisitos
+# Pré requisitos
 
 - Python 3.8+
 - Node.js (22+) & npm
 - make (para GNU Make ou equivalente)
 
-#Como rodar em dev
+# Como rodar em dev
 
 1 - criar venv python
 ```sh
