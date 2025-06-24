@@ -1,5 +1,5 @@
 # Sobre
-## Este proeto está em WIP (Work in progress)
+## Este projeto está em WIP (Work in progress)
 Starter kit que integra Flask (backend python) com um frontend usando Vue 3 + Inertia.js + TypeScript, pronto para hot-reload.
 
 # Features
