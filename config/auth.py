@@ -1,0 +1,31 @@
+auth_config = {
+    'AUTH_LOCAL': True,
+    'AUTH_GOOGLE': False,
+    'AUTH_GITHUB': False,
+    'AUTH_FACEBOOK': False,
+    'AUTH_TWITTER': False,
+    'AUTH_LINKEDIN': False,
+    'AUTH_MICROSOFT': False,
+    'AUTH_GITLAB': False,
+    'AUTH_OKTA': False,
+    'AUTH_AUTH0': False,
+    'AUTH_SCOPE': ['profile', 'email'],
+
+    'GOOGLE_CLIENT_ID': '',
+    'GOOGLE_CLIENT_SECRET': '',
+    'GOOGLE_AUTH_URL': 'https://accounts.google.com/o/oauth2/auth',
+    'GOOGLE_TOKEN_URL': 'https://accounts.google.com/o/oauth2/token',
+    'GOOGLE_REDIRECT_URI': 'http://localhost:5000/auth/google/callback',
+
+    'GITHUB_CLIENT_ID': '',
+    'GITHUB_CLIENT_SECRET': '',
+    'GITHUB_AUTH_URL': '',
+    'GITHUB_TOKEN_URL': '',
+    'GITHUB_REDIRECT_URI': 'http://localhost:5000/auth/github/callback',
+
+    'MICROSOFT_CLIENT_ID': '',
+    'MICROSOFT_CLIENT_SECRET': '',
+    'MICROSOFT_AUTH_URL': 'https://login.microsoftonline.com/common/oauth2/v2.0/authorize',
+    'MICROSOFT_TOKEN_URL': 'https://login.microsoftonline.com/common/oauth2/v2.0/token',
+    'MICROSOFT_REDIRECT_URI': 'http://localhost:5000/auth/microsoft/callback',
+}
