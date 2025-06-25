@@ -9,6 +9,8 @@ Starter kit que integra Flask (backend python) com um frontend usando Vue 3 + 
 - Reset de senha - TBD
 
 # Estrutura
+```shell
+  $ tree
 /
 ├── Makefile
 ├── src                 ← arquivos fonte do backend
@@ -20,6 +22,7 @@ Starter kit que integra Flask (backend python) com um frontend usando Vue 3 + 
 ├── templates/
 │   └── base.html       ← template raiz com Inertia
 └── README.md
+```
 
 # Pré requisitos
 
@@ -63,4 +66,4 @@ E também deve executar o servidor de desenvolvimento do frontend
 ```sh
 npm run dev
 ```
-Em ambiente de desenvolvimento o servidor backend e frontend devem ser juntos
+Em ambiente de desenvolvimento o servidor backend e frontend devem estar em execução juntos
