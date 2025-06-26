@@ -53,16 +53,23 @@ cd static/
 npm install
 ```
 
-5 - execute 
+5 - volte para a raiz do projeto e inicie o banco de dados 
+```sh
+flask db:migrate
+```
+e em seguida inicie os backends com
 ```sh
 make dev
 ```
 
-Caso voce não possua make disponível você deve executar o servidor backend usando
+Caso você não possua make disponível você deve executar o servidor backend usando
 ```sh
 python app.py
 ```
 E também deve executar o servidor de desenvolvimento do frontend
+```sh
+cd static/
+```
 ```sh
 npm run dev
 ```
