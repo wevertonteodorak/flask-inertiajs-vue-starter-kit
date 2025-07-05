@@ -21,6 +21,7 @@ install-fe:
 install-be:
 	@python3 -m venv $(VENV_DIR)
 	@$(PIP) install -r requirements.txt
+	FLASK_APP=app:app FLASK_DEBUG=1 $(VENV_DIR)/bin/flask db:migrate
 
 # run development environment
 dev: dev-python dev-vue
