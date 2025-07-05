@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask + Inertia + Vue</title>
+    
+    <!-- Vite Development Server -->
+    {% if config.ENV == 'development' %}
+        <script type="module" src="http://localhost:3000/@vite/client"></script>
+        <script type="module" src="http://localhost:3000/resources/js/app.ts"></script>
+        
+    {% else %}
+        <!-- Production assets -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+        <script type="module" src="{{ url_for('static', filename='app.js') }}"></script>
+    {% endif %}
+</head>
+<body>
+    <div id="app" data-page='{{ page | tojson }}'></div>
+</body>
+</html>

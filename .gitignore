@@ -1,0 +1,35 @@
+node_modules/
+dist/
+!.gitkeep
+# Logs
+logs
+npm-debug.log*
+# Dependency directories
+jspm_packages/
+# Optional npm cache directory
+.npm
+# Optional eslint cache
+.eslintcache
+# Optional REPL history
+.repl
+# Optional VS Code settings
+.vscode/
+# Optional IntelliJ IDEA files
+.idea/
+# Optional build output
+build/
+dist/
+data/
+!data/.gitkeep
+
+# Python
+.env
+__pycache__/
+# Python bytecode
+*.py[cod]
+# Python virtual environments
+.venv/
+# Python distribution packages
+*.egg-info/
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
